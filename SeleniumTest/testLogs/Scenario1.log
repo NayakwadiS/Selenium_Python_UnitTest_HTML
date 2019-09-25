@@ -1,0 +1,11 @@
+2019-09-13 18:34:37,801 - 45 - INFO     - ********************* Test Script Starts run ********************
+2019-09-13 18:34:37,801 - 47 - INFO     - Successfully launch Chrome Browser and navigated to http://automationpractice.com/index.php
+2019-09-13 18:34:41,866 - 25 - INFO     - Successfully Clicked on Casual Dress in Dress sub-menu.
+2019-09-13 18:34:41,961 - 24 - INFO     - Successfully Selected size as "Medium".
+2019-09-13 18:34:44,640 - 37 - INFO     - Successfully Selected "Casual" Dress.
+2019-09-13 18:34:44,752 - 21 - INFO     - Successfully Selected Quantity as 2.
+2019-09-13 18:34:44,844 - 29 - INFO     - Successfully Added Selected Item to Cart .
+2019-09-13 18:34:48,371 - 37 - INFO     - Successfully click on Proceed To Checkout .
+2019-09-13 18:34:48,479 - 29 - INFO     - Successfully Deleted Single Item from Cart .
+2019-09-13 18:34:50,619 - 33 - INFO     - Successfully Verified Cart is Empty.
+2019-09-13 18:34:53,705 - 56 - INFO     - ********************* Test Case Exit ********************

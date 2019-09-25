@@ -1,0 +1,19 @@
+1. Launch Application
+   go to Dress-> Casual Dress -> select size as Medium -> Select 1st Dress -> Select Quantity ->Add to cart -> click on Proceed to check out
+   From Shopping Cart summary page -> click on delete product from cart - > verify message 'Your shopping cart is empty.'
+
+2. Launch Application
+   go to Dress-> Casual Dress -> select size as S -> Select 1st Dress -> Select Quantity ->Add to cart -> click on Continue Shopping
+   go to Tshirt -> select filter as small size -> Select 1st Dress -> Select Quantity -> Select color as 'Blue' -> Add to cart -> click on Sign out
+
+3. Launch Application
+   Login in Store -> go to cart -> on Summary page check if cart has product or not -> if Yes then click on Proceed to checkout( else log out from    store) -> in Address step Choose dilivery address -> click on Proceed to checkout ->on shipping step ->click on Proceed to checkout -> verify msg        for terms and service->accept Terms -> click on Proceed to checkout - > on Payment page select payment mode as 'pay by bank' -> click on confirm my    order-> get order reference number for future reference.
+
+4. Launch Application
+   Login in Store -> click on your name to open your account -> Select order history and details -> if your order is in process -> download pdf invoice    -> Open Invoice -> verify your Order info
+
+
+
+ http://automationpractice.com/index.phpTemp@1234
+xcvv@sd.com 
+

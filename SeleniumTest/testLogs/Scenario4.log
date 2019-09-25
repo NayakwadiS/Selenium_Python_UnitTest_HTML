@@ -1,0 +1,22 @@
+2019-09-11 16:58:17,184 - 45 - INFO     - ********************* Test Script Starts run ********************
+2019-09-11 16:58:17,186 - 47 - INFO     - Successfully launch Chrome Browser and navigated to http://automationpractice.com/index.php
+2019-09-11 16:58:19,909 - 42 - INFO     - Successfully Clicked on T-shirts Menu.
+2019-09-11 16:58:20,002 - 27 - INFO     - Successfully Selected size as "Small".
+2019-09-11 16:58:22,090 - 44 - INFO     - Successfully Selected "Faded Short Sleeve T-shirts".
+2019-09-11 16:58:22,217 - 23 - INFO     - Successfully Selected Quantity as 2.
+2019-09-11 16:58:22,325 - 32 - INFO     - Successfully Selected Color as Blue
+2019-09-11 16:58:22,423 - 39 - INFO     - Successfully Added Selected Item to Cart .
+2019-09-11 16:58:25,043 - 47 - INFO     - Successfully click on Proceed To Checkout .
+2019-09-11 16:58:27,374 - 37 - INFO     - Successfully Proceed To Checkout Items from Cart...
+2019-09-11 16:58:27,476 - 47 - INFO     - Entered User Name -xcvv@sd.com
+2019-09-11 16:58:27,588 - 50 - INFO     - Successfully Entered Password
+2019-09-11 16:58:29,940 - 53 - INFO     - Successfully Clicked on Sign In.
+2019-09-11 16:58:29,980 - 56 - INFO     - Successfully Verify User has been Signed In.
+2019-09-11 16:58:31,284 - 47 - INFO     - Successfully Proceed To Checkout Items from Cart In Address Stage...
+2019-09-11 16:58:31,448 - 52 - INFO     - Successfully Proceed To Checkout Items from Cart In Shipping Stage...
+2019-09-11 16:58:31,804 - 57 - INFO     - Successfully Terms of Service Error msg In Shipping Stage...
+2019-09-11 16:58:33,888 - 63 - INFO     - Successfully Accepted Terms of Service In Shipping Stage.
+2019-09-11 16:58:35,664 - 52 - INFO     - Successfully Proceed To Checkout Items from Cart In Shipping Stage...
+2019-09-11 16:58:37,015 - 68 - INFO     - Successfully select Payment mode as "Bank" In Payment Stage.
+2019-09-11 16:58:44,201 - 74 - INFO     - Order has been completed for Items in Cart.
+2019-09-11 16:58:46,560 - 56 - INFO     - ********************* Test Case Exit ********************

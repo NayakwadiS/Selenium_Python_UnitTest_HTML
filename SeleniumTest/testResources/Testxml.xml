@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Environment>
+    <Variable>
+        <Name>Url</Name>
+        <Value>http://automationpractice.com/index.php</Value>
+    </Variable>
+    <Variable>
+        <Name>UserName</Name>
+        <Value>xcvv@sd.com</Value>
+    </Variable>
+    <Variable>
+        <Name>Password</Name>
+        <Value>Temp@1234</Value>
+    </Variable>
+    <Variable>
+        <Name>BrowserType</Name>
+        <Value>Chrome</Value>
+    </Variable>
+     <Variable>
+        <Name>ProjectDir</Name>
+        <Value>D:\Python_SeleniumTest\SeleniumTest\Selenium_Python_UnitTest_HTML\SeleniumTest</Value>
+    </Variable>
+</Environment>

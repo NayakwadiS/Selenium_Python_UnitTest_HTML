@@ -1,0 +1,10 @@
+2019-09-11 16:57:57,042 - 45 - INFO     - ********************* Test Script Starts run ********************
+2019-09-11 16:57:57,044 - 47 - INFO     - Successfully launch Chrome Browser and navigated to http://automationpractice.com/index.php
+2019-09-11 16:57:59,040 - 26 - INFO     - Successfully Clicked on Sign In button on Home Page
+2019-09-11 16:57:59,165 - 29 - INFO     - Entered User Name -xcvv@sd.com
+2019-09-11 16:57:59,280 - 32 - INFO     - Successfully Entered Password
+2019-09-11 16:58:00,851 - 35 - INFO     - Successfully Clicked on Sign In.
+2019-09-11 16:58:00,897 - 38 - INFO     - Successfully Verify User has been Signed In.
+2019-09-11 16:58:02,857 - 25 - INFO     - Successfully navigated to Order History...
+2019-09-11 16:58:07,009 - 60 - INFO     - User has been Successfully Signed Out.
+2019-09-11 16:58:09,347 - 56 - INFO     - ********************* Test Case Exit ********************
