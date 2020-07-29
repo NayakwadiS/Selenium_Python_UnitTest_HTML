@@ -29,7 +29,7 @@ class baseTest:
         else:
             options = Options()
             spath = str(Path(__file__).parent.parent.parent) + "\\testResources\\downloads\\"
-            print(spath)
+            #print(spath)
             prefs = {"download.default_directory": spath,
                      "download.prompt_for_download": False,
                      "download.directory_upgrade": True}
