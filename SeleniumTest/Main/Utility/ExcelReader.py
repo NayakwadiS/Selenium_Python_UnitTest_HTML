@@ -2,9 +2,11 @@ import openpyxl
 import os
 import inspect
 import re
+from pathlib import Path
 
 def ReadLine(sFileName,sTestID):
-    path =os.path.dirname(os.path.dirname(os.path.dirname(__file__)))+"\TestResources\TestData" +"\\"+sFileName
+
+    path =str(Path(__file__).parent.parent.parent)+"\TestResources\TestData" +"\\"+sFileName
     wb = openpyxl.load_workbook(path, True)
     wsheet = wb.worksheets.__getitem__(0)
 
