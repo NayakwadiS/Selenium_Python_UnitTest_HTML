@@ -8,6 +8,7 @@ import warnings
 from Main.Utility import xmlReader as Env
 #import pytest
 from Main.Utility import *
+from pathlib import Path
 
 class baseTest:
     driver = ""
@@ -20,14 +21,14 @@ class baseTest:
         self.f1_logger = f1_logger
         self.EnvironmentValue = Env.XmlReader()
         if self.EnvironmentValue.getValue("BrowserType") =="IE" :
-            # options = ie_options()
-            # options.ignore_protected_mode_settings = True
+            options = ie_options()
+            options.ignore_protected_mode_settings = True
             caps = DesiredCapabilities.INTERNETEXPLORER
             caps['ignoreProtectedModeSettings'] = True
             baseTest.driver = webdriver.Ie(os.path.dirname(os.path.dirname(os.path.dirname(__file__))) + "/MainResources/drivers/IEDriverServer.exe",options=options,capabilities=caps)
         else:
             options = Options()
-            spath = os.path.dirname(os.path.dirname(os.path.dirname(__file__))) + "\\testResources\\downloads\\"
+            spath = str(Path(__file__).parent.parent.parent) + "\\testResources\\downloads\\"
             print(spath)
             prefs = {"download.default_directory": spath,
                      "download.prompt_for_download": False,
@@ -39,7 +40,7 @@ class baseTest:
             # options.add_argument('--disable-gpu')
             # baseTest.driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME,options=options)
             # warnings.filterwarnings(action="ignore", message="unclosed",category=ResourceWarning)
-            baseTest.driver = webdriver.Chrome(os.path.dirname(os.path.dirname(os.path.dirname(__file__))) + "/MainResources/drivers/chromedriver.exe",options=options)
+            baseTest.driver = webdriver.Chrome(str(Path(__file__).parent.parent.parent) + "/MainResources/drivers/chromedriver.exe",options=options)
         baseTest.driver.maximize_window()
         baseTest.driver.implicitly_wait(5)
         baseTest.driver.get(self.EnvironmentValue.getValue("Url"))
