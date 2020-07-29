@@ -1,9 +1,10 @@
 import xml.etree.ElementTree as ET
 import os
+from pathlib import Path
 
 class XmlReader():
     def __init__(self):
-        self.path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))+"/TestResources/Testxml.xml"
+        self.path = str(Path(__file__).parent.parent.parent)+"/TestResources/Testxml.xml"
 
     def getValue(self,VariableName):
         tree = ET.parse(self.path)
