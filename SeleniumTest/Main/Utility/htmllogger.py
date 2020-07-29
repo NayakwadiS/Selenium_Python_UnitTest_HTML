@@ -7,7 +7,7 @@ import platform
 import getpass
 import socket
 from Main.Utility import xmlReader as Env
-
+from pathlib import Path
 
 class Singleton(type):
     _instances = {}
@@ -20,7 +20,7 @@ class Singleton(type):
 
 class HTMlLogger(metaclass=Singleton):
 
-    filepath = Env.XmlReader().getValue("ProjectDir") +"/Reports/LatestTree/report_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".html"
+    filepath = str(Path(__file__).parent.parent.parent) +"/Reports/LatestTree/report_" + str(time.strftime("%Y%m%d-%H%M%S")) + ".html"
     f = open(filepath, "a")
     parentid=""
     rowid=""
