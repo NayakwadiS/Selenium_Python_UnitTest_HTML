@@ -1,6 +1,6 @@
 selenium==3.141.0
 openpyxl==3.0.2
 htmllogger==1.2
-requests==2.22.0
+selenium-wire==2.1.0
 ddt==1.4.1
 PyPDF2==1.26.0
