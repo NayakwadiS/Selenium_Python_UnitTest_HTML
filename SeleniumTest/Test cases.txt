@@ -13,7 +13,6 @@
    Login in Store -> click on your name to open your account -> Select order history and details -> if your order is in process -> download pdf invoice    -> Open Invoice -> verify your Order info
 
 
-
- http://automationpractice.com/index.phpTemp@1234
+http://automationpractice.com/index.phpTemp@1234
 xcvv@sd.com 
 
