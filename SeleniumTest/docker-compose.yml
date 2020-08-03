@@ -1,0 +1,26 @@
+
+#To execute this docker-compose yml file use `docker-compose -f <file_name> up -d'
+version: '2'
+
+services: 
+  hub:
+    image: selenium/hub:latest
+    ports:
+      - "4444:4444"
+  chrome:
+    image: selenium/node-chrome:latest
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - hub
+    environment:
+      HUB_HOST: hub
+
+  firefox:
+    image: selenium/node-firefox:latest
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - hub
+    environment:
+      HUB_HOST: hub
