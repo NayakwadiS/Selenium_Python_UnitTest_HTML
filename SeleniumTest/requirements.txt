@@ -3,4 +3,4 @@ openpyxl==3.0.2
 htmllogger==1.2
 selenium-wire==2.1.0
 ddt==1.4.1
-PyPDF2==1.26.0
+PyPDF2==1.27.5
