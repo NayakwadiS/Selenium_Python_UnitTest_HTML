@@ -6,11 +6,11 @@
     </Variable>
     <Variable>
         <Name>UserName</Name>
-        <Value>xcvv@sd.com</Value>
+        <Value>ADD_YOUR_REGISTERED_EMAIL</Value>
     </Variable>
     <Variable>
         <Name>Password</Name>
-        <Value>Temp@1234</Value>
+        <Value>YOUR_PASSWORD</Value>
     </Variable>
     <Variable>
         <Name>BrowserType</Name>
